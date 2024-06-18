@@ -1,0 +1,29 @@
+/*Importación de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Selector Universal*/
+*{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+  .bd-mode-toggle {
+	z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+	display: block !important;
+  }
